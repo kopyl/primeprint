@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik';
+  color: #213875;
+}
+
+a {
+  color: #213875;
+}
+
+*::before, *::after {
+  content: '';
+}
+
+aside {
+  height: 100%;
+  padding: 36px 0 30px 31px;
+  font-size: 14px;
+  position: fixed;
+}
+
+aside ul {
+  margin-left: 89px;
+  margin-top: 74px;
+  position: absolute;
+  top: 50%;
+  margin-top: -181px;
+}
+
+aside ul.first::after, aside ul.second::after, aside ul.third::after, aside ul.fourth::after, aside ul.fifth::after, aside ul.sixth::after, aside ul.seventh::after, aside ul.eighth::after, aside ul.nineth::after, aside ul.tenth::after {
+  width: 10px;
+  height: 41px;
+  position: absolute;
+  z-index: -1;
+  left: -25px;
+  background-color: #F4F5F8;
+  transition: top 0.4s 0.15s cubic-bezier(0.91, 0.44, 0.26, 0.87), width 0.2s linear;
+}
+
+aside ul.first::after {
+  width: 135px;
+  top: -2px;
+}
+
+aside ul.second::after {
+  top: 35px;
+}
+
+aside ul.third::after {
+  top: 74px;
+}
+
+aside ul.fourth::after {
+  top: 111px;
+}
+
+aside ul.fifth::after {
+  top: 150px;
+}
+
+aside ul.sixth::after {
+  top: 187px;
+}
+
+aside ul.seventh::after {
+  top: 226px;
+}
+
+aside ul.eighth::after {
+  top: 264px;
+}
+
+aside ul.nineth::after {
+  top: 302px;
+}
+
+aside ul.tenth::after {
+  top: 340px;
+}
+
+aside ul li a {
+  display: block;
+  width: 189px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+aside div.bottom_pane {
+  margin-top: 63px;
+  margin-left: 89px;
+  position: absolute;
+  bottom: 4%;
+}
+
+aside div.bottom_pane a {
+  transition: background-color .2s linear;
+}
+
+aside div.bottom_pane div.languages {
+  width: 109px;
+  height: 42px;
+}
+
+aside div.bottom_pane div.languages a {
+  display: inline-block;
+  height: 42px;
+  background-color: #F4F5F8;
+  text-decoration: none;
+}
+
+aside div.bottom_pane div.languages a:hover {
+  background-color: #E8EBF1;
+}
+
+aside div.bottom_pane div.languages a.active {
+  background-color: #E8EBF1;
+}
+
+aside div.bottom_pane div.languages a:nth-child(1) {
+  width: 54px;
+  border-radius: 15px 0 0 15px;
+  padding: 12px 9px 12px 16px;
+}
+
+aside div.bottom_pane div.languages a:nth-child(2) {
+  width: 55px;
+  border-radius: 0 15px 15px 0;
+  padding: 12px 11px 12px 15px;
+}
+
+aside div.bottom_pane div.social {
+  width: 109px;
+  height: 42px;
+  margin-top: 12px;
+}
+
+aside div.bottom_pane div.social a {
+  display: inline-block;
+  vertical-align: top;
+  width: 52px;
+  height: 42px;
+}
+
+aside div.bottom_pane div.social a:nth-child(1) {
+  border-radius: 15px 0 0 15px;
+  background: #F4F5F8 url("../img/social_icons/Instagram_icon.svg") no-repeat 19px 12px;
+}
+
+aside div.bottom_pane div.social a:nth-child(2) {
+  width: 53px;
+  margin-left: 4px;
+  border-radius: 0 15px 15px 0;
+  background: #F4F5F8 url("../img/social_icons/Facebook_icon.svg") no-repeat 20px 13px;
+}
+
+aside div.bottom_pane div.social a:hover {
+  background-color: #E8EBF1;
+}
+
+main {
+  margin-left: 376px;
+  padding-top: 45px;
+}
+
+main p.delivery_info {
+  height: 22px;
+  padding-left: 38px;
+  background-image: url("../img/Car-icon.svg");
+  background-repeat: no-repeat;
+  font-size: 13px;
+  margin-bottom: 48px;
+}
+
+main div.item {
+  width: 246px;
+  margin-bottom: 55px;
+  margin-right: 55px;
+  background-size: 246px 246px;
+  background-repeat: no-repeat;
+}
+
+main div.item div.image {
+  text-align: center;
+  padding-top: 10px;
+}
+
+main div.item div.image a {
+  display: inline-block;
+  border-radius: 10px;
+  padding-left: 8px;
+  top: 10px;
+  line-height: 35px;
+  background-color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+main div.item div.image a span {
+  margin-right: 16px;
+  margin-right: 0;
+}
+
+main div.item a span, main div.item a img {
+  vertical-align: middle;
+  text-align: center;
+}
+
+main div.item a img {
+  margin-right: 11px;
+}
+
+main div.item p {
+  margin-top: 211px;
+  margin-bottom: 13px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+main div.item a.button {
+  display: block;
+  text-align: center;
+  width: 246px;
+  height: 57px;
+  background-color: #F4F5F8;
+  border-radius: 0 0 23px 23px;
+  line-height: 52px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+main div.item.vcard, main div.item.flyer, main div.item.listivki {
+  height: 359px;
+}
+
+main div.item.vcard {
+  background-image: url("../img/products/jealous-sweets-slideshow-2.png");
+}

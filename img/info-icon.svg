@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="19px" viewBox="0 0 21 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Продукція" transform="translate(-435.000000, -193.000000)" fill="#CBD0DF">
+            <g id="Right-side" transform="translate(376.000000, 105.000000)">
+                <g id="Items" transform="translate(0.000000, 70.000000)">
+                    <g id="Візитки">
+                        <g id="Info-button" transform="translate(51.000000, 10.000000)">
+                            <g id="Content" transform="translate(8.000000, 4.000000)">
+                                <g id="Info-icon" transform="translate(0.000000, 4.000000)">
+                                    <path d="M0,5.99867589 C0,2.68569868 2.68099481,0 6.00370086,0 L14.9962991,0 C18.3120516,0 21,2.68193801 21,5.99867589 L21,13.0013241 C21,16.3143013 18.3190052,19 14.9962991,19 L6.00370086,19 C2.68794843,19 0,16.318062 0,13.0013241 L0,5.99867589 Z M9,10.498576 L9,13.501424 C9,14.3349702 9.67157288,15 10.5,15 C11.3342028,15 12,14.3290647 12,13.501424 L12,10.498576 C12,9.66502976 11.3284271,9 10.5,9 C9.66579723,9 9,9.67093534 9,10.498576 Z M9,5.5 C9,6.33420277 9.67157288,7 10.5,7 C11.3342028,7 12,6.32842712 12,5.5 C12,4.66579723 11.3284271,4 10.5,4 C9.66579723,4 9,4.67157288 9,5.5 Z" id="Combined-Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,102 @@
+// square - black square 100x100
+// small-square - red square 50x50
+// center - margin: 0 auto
+// roboto - font family Roboto
+// roboto-25px - Roboto 25px
+// text - body:after "Simple text"
+// move - transition 1s linear
+
+//f - font-family: 'BebasRegular'
+
+
+
+=f
+	font-family: 'BebasRegular'
+
+=fbold
+	font-family: 'BebasBold'
+
+=buttons_state
+	&:before // sliding rectangle
+		width: 0%
+		height: 100%
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		z-index: -1
+		background: #212325
+		transition: 0.35s cubic-bezier(.94,.58,.22,.77)
+	&:hover::before // Анимация ховера, где черный блок выезжает под текстом и иконкой
+		width: 100%
+	&:active::before // Анимация активного состояния. Когда нажимаешь на кнопку, она становится серой
+		transition: .1s linear
+		background-color: #414141
+
+=block($width: 100px, $height: 100px, $background: black, $border-radius: 0)
+	@if $width > 0
+		width: $width
+	@if $height > 0
+		height: $height
+	@if $background != 0
+		background: $background
+	@if $border-radius > 0
+		border-radius: $border-radius
+		
+
+=font($font: 'Roboto', $size: 16px, $color: 0)
+	@if $font != 0
+		font-family: $font
+	@if $size > 0
+		font-size: $size
+	@if $color != 0
+		color: $color
+
+
+=position($position, $left, $top)
+	@if $position != 0
+		position: $position
+	@if $left != null
+		left: $left
+	@if $top != null
+		top: $top
+
+
+=center 
+	margin: 0 auto
+
+
+=move($speed)
+	@if $speed == slow
+		transition: 1s cubic-bezier(.94,.58,.22,.77)
+	@if $speed == middle
+		transition: 0.45s cubic-bezier(.94,.58,.22,.77)
+	@if $speed == fast
+		transition: 0.25s cubic-bezier(.94,.58,.22,.77)
+
+
+
+=text
+	body:after 
+		content: 'Simple text'
+
+
+=conabs
+	content: ''
+	position: absolute
+
+
+=scale($scale)
+	transform: scale($scale)
+
+=scaleX($scale)
+	transform: scaleX($scale)
+
+=scaleY($scale)
+	transform: scaleY($scale)
+
+
+
+=b($background)
+	background: $background
+	
